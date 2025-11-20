@@ -1,0 +1,45 @@
+.service-mini-box{
+    max-width: 450px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    gap: 10px;
+    border: 1px solid #242439;
+    text-align: center;
+    background-color: #131428;
+}
+
+.service-mini-box:hover{
+    border: 1px solid #524DD3;
+    transition: 0.5s;
+}
+
+.service-mini-img{
+    background-color: #5A4FD8;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.mini-box-title{
+    font-size: 23px;
+}
+
+.mini-box-desc{
+    color: #A4A4B7;
+    font-size: 14px;
+}
+
+.mini-box-link{
+    color: #5A4FD8;
+    font-size: 14px;
+}

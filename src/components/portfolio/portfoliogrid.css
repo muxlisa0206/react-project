@@ -1,0 +1,81 @@
+.portfolio-mini-box{
+    max-width: 450px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #242439;
+    background-color: #131428;
+    box-shadow: 0 2px 8px rgb(39, 39, 39);
+    overflow: hidden;
+}
+
+.portfolio-mini-box:hover{
+    box-shadow: 0 4px 18px #4a495b;
+    transition: 0.5s;
+}
+
+.mini-box-image{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.portfolio-card-content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio-card-brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.brand-title{
+    background-color: #1C1C40;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 18px;
+    font-weight: bold;
+    color: #524DD3;
+}
+
+.brand-rate{
+    font-weight: bold;
+    color: #FBBF24;
+}
+
+.portfolio-box-title{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.portfolio-box-desc{
+    font-size: 18px;
+    color: #A4A4B7;
+    font-weight: 500;
+}
+
+.portfolio-box-links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.portfolio-link{
+    background-color: #1E1F32;
+    border: 1px solid #242439;
+    color: #A4A4B7;
+    border-radius: 10px;
+    padding: 5px 18px;
+    font-weight: 700;
+}
+.portfolio-link:hover{
+    background-color: #1A1B3A;
+    border: 1px solid #524DD3;
+    color: #524DD3;
+    transition: 0.5s;
+}
+

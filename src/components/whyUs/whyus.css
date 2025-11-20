@@ -1,0 +1,68 @@
+.why-mini-box{
+    max-width: 450px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    gap: 15px;
+    border: 1px solid #242439;
+    text-align: center;
+    background-color: #131428;
+}
+
+.why-mini-box:hover{
+    border: 1px solid #524DD3;
+    transition: 0.5s;
+}
+
+.why-mini-img{
+    background-color: #5A4FD8;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 800;
+    border: 5px solid #2A275E;
+}
+
+.mini-box-title{
+    font-size: 30px;
+}
+
+.mini-box-desc{
+    color: #A4A4B7;
+    font-size: 18px;
+}
+
+.static{
+    padding-top: 20px;
+    width: 100%;
+    border-top: 1px solid #242439;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.statistika{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.static-title{
+    font-size: 30px;
+    color: #524DD3;
+    font-weight: 900;
+}
+.static-desc{
+    color: #A4A4B7;
+    font-size: 18px;
+}

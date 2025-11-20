@@ -1,0 +1,23 @@
+.hero-card_statika{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.statistika{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.statistika-title{
+    font-size: 25px;
+    color: #524DD3;
+    font-weight: 900;
+}
+.statistika-desc{
+    color: #A4A4B7;
+    font-size: 16px;
+}

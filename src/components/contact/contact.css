@@ -1,0 +1,22 @@
+.contact-ctn-card{
+    max-width: 550px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #181836;
+    background-color: #131428;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-ctn-card:hover{
+    border: 1px solid #20204B;
+    box-shadow: 0 2px 8px #534ED3;
+}
+
+.ctn-card-ctr{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
