@@ -1,6 +1,5 @@
 import "./App.css";
 import Header from "./components/header/header";
-// import Footer from "./components/footer/footer";
 
 import Leadership from "./components/leadership/Leadership";
 import PortfolioGrid from "./components/portfolio/Portfoliogrid";
@@ -253,7 +252,6 @@ function App(){
                 </section>
             </main>
 
-            {/* <Footer/> */}
         </>
     )
 }
