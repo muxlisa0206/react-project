@@ -1,10 +1,10 @@
 import "./footer.css";
 
 function Footer(){
-    return(
-            <footer class="footer">
+    return (
+        <footer class="footer">
 
-             <div class="footer-container">
+            <div class="footer-container">
 
                 <div class="footer-col">
                     <h2>Clarity</h2>
@@ -13,7 +13,7 @@ function Footer(){
                         New York, NY 535022</p>
 
                     <p><strong>Phone:</strong> +1 5589 55488 55
-                    <strong>Email:</strong> info@example.com</p>
+                        <strong>Email:</strong> info@example.com</p>
 
                 </div>
 
@@ -69,8 +69,6 @@ function Footer(){
             </div>
 
         </footer>
-
-
     )
 }
 

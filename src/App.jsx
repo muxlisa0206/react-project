@@ -1,6 +1,7 @@
 import "./App.css";
-import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
+
 import Leadership from "./components/leadership/Leadership";
 import PortfolioGrid from "./components/portfolio/Portfoliogrid";
 import ServiceBox from "./components/service-box/service-box";
